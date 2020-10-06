@@ -4,6 +4,7 @@ const path = require("path");
 
 router.get("/home", (req, res) => {
   res.sendFile(path.join(__dirname, "../public/index.html"));
+  console.log("Navigated to homepage");
 });
 
 router.get("/exercise", (req, res) => {

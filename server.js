@@ -1,9 +1,10 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const logger = require("morgan");
-const PORT = 3000;
 const app = express();
+const PORT = 3000;
 
+//Express server variables
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
