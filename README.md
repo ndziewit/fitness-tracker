@@ -1,2 +1,6 @@
-# Unit 17 Nosql Homework: Workout Tracker
-As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+<img width="555" alt="fitnesstrackerscreenshot" src="https://user-images.githubusercontent.com/64652517/95266508-4c1eab80-0801-11eb-8c77-f1d794def11b.png">
+
+# Workout Tracker
+Users can navigate to the main page where they can create and track workouts. The workouts are then sent to a Mongo database with a Mongoose schema. Routes are handled by Express.
+
+This app was developed using Javascript, node.js, Express, MongoDB, and NoSQL
